@@ -1,0 +1,47 @@
+.nnavbar .navbar-expand-md .navbar-light .bg-light {
+  position: absolute;
+  width: 1322px;
+  height: 80px;
+  left: calc(50% - 1322px / 2);
+  top: 0px;
+}
+img {
+  position: absolute;
+  width: 1349px;
+  height: 770px;
+  left: 0px;
+  top: 0px;
+}
+
+.collapse .navbar-collapse {
+  position: absolute;
+  width: 280px;
+  height: 24px;
+  left: calc(50% - 280px / 2 - 162px);
+  top: 25px;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 280px;
+  height: 24px;
+  left: calc(50% - 280px / 2);
+  top: calc(50% - 24px / 2);
+}
+
+.nav-icon {
+  position: absolute;
+  width: 24px;
+  height: 13.71px;
+  left: calc(50% - 24px / 2 + 649px);
+  top: 30px;
+}
