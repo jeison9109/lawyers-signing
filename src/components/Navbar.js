@@ -1,13 +1,13 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
-import logo from "../components/images/fondo.png";
+//import logo from "../components/images/fondo.png";
 
 export const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-light bg-light">
-        <img src={logo} alt={logo} />
+        {/*<img src={logo} alt={logo}>*/}
         <div className="navbar-brand">
           <Link exact to="/" className="nav-link">
             Pearson Specter
