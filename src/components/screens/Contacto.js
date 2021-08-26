@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "../hooks/useForm";
 import "../../styles/formulario.css";
-import "../../styles/contact.css";
-//import logo1 from "../../components/images/world.png";
+//import "../../styles/contact.css";
+import image from "../../components/images/media.png";
 
 export const Contacto = () => {
   const [formValues, handleInputChange] = useForm({
@@ -14,102 +14,79 @@ export const Contacto = () => {
   const { fullName, cedula, email, message } = formValues;
 
   return (
-    <div className="contact-2">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-7">
-            <h2>We Have Branches All Over The World</h2>
-            <p>
-              The gradual accumulation of information about atomic and
-              small-scale behaviour during the first quarter of the 20th
-              century, which gave some indications about how small things do
-              behave, produced an increasing confusion which was Heisenberg, and
-              Born.
-            </p>
-          </div>
-          <div className="col-md-5">{/* <img src={logo1} alt={logo1} />*/}</div>
-        </div>
-        <div className="row">
-          <div className="main-content">
-            <div className="card-item">
-              <div className="container-form">
-                <h2>Request A Free Consultation</h2>
-
-                <form autoComplete="off">
-                  <div className="row">
-                    <div className="mb-1">
-                      <label htmlFor="full-name">Nombre</label>
-                    </div>
-                    <div className="mb-1">
-                      <input
-                        type="text"
-                        className="form-label"
-                        placeholder="Nombre y apellido"
-                        name="fullName"
-                        required="value"
-                        //value={values.fullName}
-                        onChange={handleInputChange}
-                      ></input>
-                    </div>
-
-                    <div className="mb-1">
-                      <label htmlFor="cedula">Cedula</label>
-                    </div>
-                    <div className="mb-1">
-                      <input
-                        //className="form-control"
-                        className="form-label"
-                        type="text"
-                        placeholder="CC"
-                        name="cedula"
-                        required="value1"
-                        //value={values.cedula}
-                        onChange={handleInputChange}
-                      ></input>
-                    </div>
-
-                    <div className="mb-3">
-                      <label htmlFor="email">Correo</label>
-                    </div>
-                    <div className="mb-1">
-                      <input
-                        className="form-label"
-                        type="text"
-                        placeholder="email@domain.com"
-                        name="email"
-                        required="value2"
-                        //  value={values.email}
-                        onChange={handleInputChange}
-                      />
-                    </div>
-
-                    <div className="mb-1">
-                      <label htmlFor="message">Mensaje</label>
-                    </div>
-                    <div className="mb-1">
-                      <textarea
-                        rows="4"
-                        cols="40"
-                        name="message"
-                        required="value3"
-                        placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
-                        //   value={values.message}
-                        onChange={handleInputChange}
-                      />
-                    </div>
-
-                    <div className="mb-1">
-                      <input
-                        type="submit"
-                        required="value4"
-                        //  value={props.currentId == "" ? "Enviar" : ""}
-                        className="button"
-                      />
-                    </div>
-                  </div>
-                </form>
-              </div>
+    <div className="container">
+      <div className="row1 d-flex justify-content-center align-items-center">
+        <div className="col-md-7">
+          <div className="form d-flex justify-content-between">
+            <div className="image">
+              <img src={image} alt={image} />
             </div>
+            <form action="" className="my-form">
+              <h4 className="font-weight-bold mb-3">
+                Solicite una consulta gratuita
+              </h4>
+              <p className="mdb-color-text">
+                Contactanos para consultas y asesorias. Tú eres nuestro cliente
+                y nuestra principal motivacion para ganar los casos.
+              </p>
+
+              <div className="md-form md-outline">
+                <i className="fa fa-address-book"></i>
+                <input type="text" id="nameExample" className="form-control" />
+                <label htmlFor="nameExample">Nombre completo</label>
+              </div>
+
+              <div className="md-form md-outline">
+                <i className="fa fa-phone"></i>
+                <input
+                  type="text"
+                  id="celularExample"
+                  className="form-control"
+                />
+                <label htmlFor="numeroExample">Numero de celular</label>
+              </div>
+
+              <div className="md-form md-outline">
+                <i className="fas fa-envelope prefix"></i>
+                <input type="text" id="emailExample" className="form-control" />
+                <label htmlFor="emailExample">Correo electronico</label>
+              </div>
+
+              <div className="md-form md-outline">
+                <i className="fas fa-envelope prefix"></i>
+
+                <select
+                  name="departament"
+                  id="departament"
+                  className="form-control"
+                >
+                  <option value="Select" select="" disabled=""></option>
+                  <option value="Derecho Administrativo">
+                    Derecho Administrativo
+                  </option>
+                  <option value="Derecho Civil">Derecho Civil</option>
+                  <option value="Derecho de Familia">Derecho de Familia</option>
+                  <option value="Denuncias">Derecho Laboral</option>
+                  <option value="Derecho Inmobiliario y Urbanistico">
+                    Derecho Inmobiliario y Urbanistico
+                  </option>
+                  <option value="Siniestros">Siniestros</option>
+                  <option value="Comercial">Comercial</option>
+                  <option value="Contratacion Estatal">
+                    Contratacion Estatal
+                  </option>
+                </select>
+                <label htmlFor="opcioneslExample">Opciones</label>
+              </div>
+
+              <div className="space">
+                <div className="float-right">
+                  <button className="btn btn-rounded" type="button">
+                    Enviar
+                  </button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </div>

@@ -9,8 +9,8 @@ export const Navbar = () => {
       <nav className="navbar navbar-expand-md navbar-light bg-light">
         {/*<img src={logo} alt={logo}>*/}
         <div className="navbar-brand">
-          <Link exact to="/" className="nav-link">
-            Pearson Specter
+          <Link exact to="/nosotros" className="nav-link">
+            Guio Barrera
           </Link>
         </div>
 

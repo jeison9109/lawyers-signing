@@ -5,13 +5,13 @@
   left: calc(50% - 1322px / 2);
   top: 0px;
 }
-img {
+/*img {
   position: absolute;
   width: 1349px;
   height: 770px;
   left: 0px;
   top: 0px;
-}
+}*/
 
 .collapse .navbar-collapse {
   position: absolute;

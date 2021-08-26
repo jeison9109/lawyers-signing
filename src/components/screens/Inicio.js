@@ -14,8 +14,11 @@ export const Inicio = () => {
 
   return (
     <>
-      <img src={logo} />
-      <div className="container">
+      <div className="fond-img">
+        <img src={logo} alt={logo} />
+      </div>
+
+      <div className="container1">
         <div className="row">
           <div className="col-md-6">
             <h1>Help to reclaim your life and freedom </h1>

@@ -1,1 +1,78 @@
 /*FORMULARIO*/
+
+.container {
+  background-color: #252b42;
+
+  width: 1440px;
+  height: 500px;
+  left: 0px;
+  top: 70px;
+  opacity: ;
+}
+.row1 {
+  height: auto;
+  width: auto;
+}
+.form {
+  margin-top: 20px;
+  border: 2px solid gray;
+  background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px -1px rgba(0, 0, 0, 0.12);
+}
+.image img {
+  /*margin-top: 150px;
+  margin-left: 300px;*/
+  width: 220px;
+  height: auto;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.my-form {
+  padding: 1.5rem;
+}
+.my-form h4 {
+  color: #92aad0;
+}
+.my-form p {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+.btn {
+  margin-top: 20px;
+  background-color: #92aad0;
+  right: 0;
+}
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: #fff;
+}
+a {
+  bottom: 0;
+}
+.space {
+  padding-bottom: 4rem;
+}
+
+@-webkit-keyframes autofill {
+  to {
+    color: #666;
+    background: transparent;
+  }
+}
+
+@keyframes autofill {
+  to {
+    color: #666;
+    background: transparent;
+  }
+}
+
+input[type="text"],
+select:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
