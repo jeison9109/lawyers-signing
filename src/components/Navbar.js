@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import "../styles/navbar.css";
-//import logo from "../components/images/fondo.png";
+import logo from "../components/images/fondo.png";
 
 export const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,20 +10,13 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-md navbar-light bg-light">
+      <nav className="navbar">
         <div className="nav-container">
-          {/*<img src={logo} alt={logo}>
-        /*  <div className="navbar-brand">
-            <Link exact to="/nosotros" className="nav-link">
-              Guio Barrera
-            </Link>
-          </div>*/}
-
           <NavLink exact to="/" className="nav-logo">
             Guio Barrera
           </NavLink>
 
-          <ul className={click ? "navbar-nav active" : "navbar-nav"}>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink exact to="/" className="nav-link">
                 Inicio
