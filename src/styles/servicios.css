@@ -1,0 +1,301 @@
+.container-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+
+  position: absolute;
+  width: 1200px;
+  height: 792px;
+  left: calc(50% - 1050px / 2 - 2px);
+  top: 70px;
+}
+
+.container-sup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 45px 0px;
+
+  position: static;
+  width: 1200px;
+  height: 190px;
+  left: calc(50% - 1050px / 2);
+  top: 50px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.row .serv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 509px;
+  height: 100px;
+  left: calc(50% - 509px / 2 - 270.5px);
+  top: 75px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.main-content .serv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 509px;
+  height: 100px;
+  left: calc(50% - 509px / 2);
+  top: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+/*Contenedor de Cards*/
+
+.container-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  /*background: rgb(189, 125, 102);*/
+
+  position: static;
+  width: 1200px;
+  height: 200px;
+  left: calc(50% - 1046px / 2);
+  top: 180px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.serv1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 1200px;
+  height: 112px;
+  margin-left: calc(20% - 1180px / 2);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.serv2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 1200px;
+  height: 112px;
+  margin-left: calc(20% - 1180px / 2);
+  top: 142px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 30px 0px;
+}
+
+.s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 329px / 2 + 358.5px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+
+.s2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 329px / 2 - 0.5px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+
+.s3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 328px / 2 - 359px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+.s4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 328px / 2 - 359px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+
+.s5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 329px / 2 - 0.5px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+
+.s6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 300px;
+  height: 112px;
+  left: calc(50% - 329px / 2 + 358.5px);
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 0px 30px;
+}
+.card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+
+  position: static;
+  width: 328px;
+  height: 112px;
+  left: 0px;
+  top: 0px;
+
+  background: #fafafa;
+  border: 1px solid #e2e2e2;
+  box-sizing: border-box;
+  /* Light Dropshadow */
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: static;
+  width: 215px;
+  height: 72px;
+  left: calc(50% - 215px / 2 - 36.5px);
+  top: 20px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
