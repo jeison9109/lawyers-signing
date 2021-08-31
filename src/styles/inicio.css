@@ -1,18 +1,9 @@
-.fond-img {
+.fond-ini img {
   position: absolute;
   width: 1349px;
-  height: 770px;
+  height: 900px;
   left: 0px;
   top: 70px;
-}
-
-.Header-3 {
-  position: absolute;
-  height: 772px;
-  left: 0px;
-  right: 0px;
-  top: 50px;
-  background: #fafafa;
 }
 
 .container1 {
@@ -23,7 +14,7 @@
 
   position: absolute;
   width: 1050px;
-  height: 623px;
+  height: 850px;
   left: calc(50% - 1050px / 2);
   top: 104px;
 }

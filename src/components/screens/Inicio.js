@@ -14,7 +14,7 @@ export const Inicio = () => {
 
   return (
     <>
-      <div className="fond-img">
+      <div className="fond-ini">
         <img src={logo} alt={logo} />
       </div>
 
